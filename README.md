@@ -25,3 +25,14 @@ Este repositorio contiene un ejemplo de uso de **Databricks Asset Bundles (DAB)*
    Se usa el comando:
    ```sh
    databricks bundle validate --target <entorno>
+para comprobar consistencia, definir contenido y estructura adecuados.
+
+2.	**Despliegue del bundle**
+   ```sh
+    databricks bundle deploy --target <entorno>
+se sincroniza el contenido al workspace de Databricks, configurando notebooks, jobs, clusters, etc.
+
+3. **Ejecución del bundle **
+Si está definido un job dentro del bundle:
+    ```sh
+    databricks bundle run <job_key> --target <entorno>
