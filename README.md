@@ -1,5 +1,5 @@
 # DAB
-Este repositorio contiene un ejemplo de uso de **Databricks Asset Bundles (DAB)**, con notebooks y configuración para desplegar en Databricks usando CI/CD.
+Este repositorio contiene un ejemplo de uso de **Databricks Asset Bundles (DAB)**, con notebooks y configuración para desplegar en Databricks usando CI/CD..
 
 ---
 
